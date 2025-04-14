@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7969490102:AAF38W_-3bdLyn5Rcmvxq3vQD-Z_byqKPo4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7969490102:AAEXCoXZXI8gn6h3eDVrOlD8MzttX9mFf_s")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "21672202"))
@@ -65,8 +65,8 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 #Short Url or Api
-SHORT_URL = os.environ.get("SHORTNER_URL", "shortxlinks.com")
-SHORT_API = os.environ.get("SHORTNER_API", "ef72b6e9022e76ba340896e9ec72deb0d0abcbf5")
+SHORT_URL = os.environ.get("SHORTNER_URL", "easysky.in")
+SHORT_API = os.environ.get("SHORTNER_API", "e7f2e5cff3ed47768a38732b35b6849cc11139aa")
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ - @Entertainment_Yoddha"
